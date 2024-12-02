@@ -39,4 +39,22 @@ def not_found(e):
     return send_from_directory(app.static_folder, 'index.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    from waitress import serve
+    serve(app, host="0.0.0.0", port=8080)
+~                                                                                                                                                                                                                   
+~                                                                                                                                                                                                                   
+~                                                                                                                                                                                                                   
+~                                                                                                                                                                                                                   
+~                                                                                                                                                                                                                   
+~                                                                                                                                                                                                                   
+~                                                                                                                                                                                                                   
+~                                                                                                                                                                                                                   
+~                                                                                                                                                                                                                   
+~                                                                                                                                                                                                                   
+~                                                                                                                                                                                                                   
+~                                                                                                                                                                                                                   
+~                                                                                                                                                                                                                   
+~                                                                                                                                                                                                                   
+~                                                                                                                                                                                                                   
+~                                                                                                                                                                                                                   
+"app.py" 43L, 1268C                                                                                                                                                                               43,41         All

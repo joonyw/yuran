@@ -2,10 +2,7 @@ import openai
 import os
 import urllib
 from pathlib import Path
-from moviepy.editor import ImageSequenceClip, AudioFileClip, CompositeVideoClip
 
-
-OPEN_API_KEY='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'
 
 def create_scenario(usr_input):
     client = openai.OpenAI(
@@ -56,4 +53,7 @@ def get_pic(resp):
 
 #     video.write_videofile("output.mp4", fps=fps, audio_codec="aac", audio_bitrate="192k")
 
-    
+
+~                                                                                                                                                                                                                   
+~                                                                                                                                                                                                                   
+"utils.py" 57L, 1740C                                                                                                                                                                             57,1          All

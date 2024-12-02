@@ -41,7 +41,7 @@ function ImageDisplay() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>YURANY</h1>
+        <h1>♥♥♥YURANY♥♥♥</h1>
         {!submitted ? (
           <form onSubmit={fetchMedia}>
             <input
@@ -58,7 +58,7 @@ function ImageDisplay() {
           <>
             {response && <p>{response}</p>}
             {image && <img src={image} alt="Server Image" style={{ maxWidth: '100%', maxHeight: '100%' }} />}
-            {audio && <audio controls src={audio} autoPlay />}
+
             {error && <p style={{ color: 'red' }}>{error}</p>}
           </>
         )}
